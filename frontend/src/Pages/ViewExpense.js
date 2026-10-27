@@ -10,7 +10,7 @@ const ViewExpense = () => {
   const getData = async () => {
     try {
       const response = await axios.get(
-        'http://localhost:9999/api/expense/view'
+        'https://expensetracker-ag3y.onrender.com/api/expense/view'
       );
 
       setExpdata(response.data.data || []);
