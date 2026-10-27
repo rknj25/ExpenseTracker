@@ -24,7 +24,7 @@ const Signup = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:9999/api/user/register',
+        'https://expensetracker-ag3y.onrender.com/api/user/register',
         form
       );
 

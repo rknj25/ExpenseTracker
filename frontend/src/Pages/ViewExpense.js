@@ -44,7 +44,7 @@ const ViewExpense = () => {
 
     try {
       const response = await axios.delete(
-        `http://localhost:9999/api/expense/delete/${id}`
+        `https://expensetracker-ag3y.onrender.com/api/expense/delete/${id}`
       );
 
       alert(response.data.message);

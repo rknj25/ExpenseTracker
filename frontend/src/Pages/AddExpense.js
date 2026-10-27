@@ -21,7 +21,7 @@ const AddExpense = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:9999/api/expense/add',
+        'https://expensetracker-ag3y.onrender.com/api/expense/add',
         form
       );
 

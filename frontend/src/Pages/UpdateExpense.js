@@ -17,7 +17,7 @@ const UpdateExpense = () => {
     const getPar = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:9999/api/expense/find/${id}`
+          `https://expensetracker-ag3y.onrender.com/api/expense/find/${id}`
         );
 
         const expense = response.data.particular;
